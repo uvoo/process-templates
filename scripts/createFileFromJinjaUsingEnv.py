@@ -2,7 +2,7 @@ from jinja2 import Template, StrictUndefined
 import argparse
 import os
 
-parser = argparse.ArgumentParser(description='Create Zabbix screen from all of a host Items or Graphs.')
+parser = argparse.ArgumentParser(description='Create file from jinja template file.')
 parser.add_argument('-t', '--template-file', required=True, type=str,
                     help='Jinja template file name path.')
 args = parser.parse_args()
